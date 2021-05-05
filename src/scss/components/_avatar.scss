@@ -1,0 +1,15 @@
+$avatar-background-color: $primary !default;
+$avatar-text-color: findLightColor($primary) !default;
+
+.b-avatar-wrapper {
+    font-weight: bold;
+    > span {
+        background-color: $avatar-background-color;
+        color: $avatar-text-color;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+}

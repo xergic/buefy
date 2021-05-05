@@ -561,6 +561,19 @@
             "documentation/image"
         ]
     },
+    "documentation/avatar": {
+        "title": "Avatar",
+        "subtitle": "User avatar image or initials",
+        "path": "/documentation/avatar",
+        "githubPath": "pages/components/avatar/Avatar.vue",
+        "menu": "documentation",
+        "breadcrumb": [
+            "/",
+            "documentation",
+            "documentation/avatar"
+        ],
+        "isNew": true
+    },
     "extensions": {
         "title": "Extensions",
         "subtitle": "See how you can improve Buefy with other packages",

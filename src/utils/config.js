@@ -68,6 +68,7 @@ let config = {
     defaultImageResponsive: true,
     defaultImageRatio: null,
     defaultImageSrcsetFormatter: null,
+    defaultAvatarSize: 128,
     customIconPacks: null
 }
 

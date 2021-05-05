@@ -75,6 +75,7 @@ const router = new Router({
                 route('documentation/sidebar', 'components/sidebar/Sidebar'),
                 route('documentation/skeleton', 'components/skeleton/Skeleton'),
                 route('documentation/image', 'components/image/Image'),
+                route('documentation/avatar', 'components/avatar/Avatar'),
                 // Extensions
                 route('extensions', 'Extensions'),
                 route('extensions/cleavejs', 'extensions/cleavejs/Cleavejs'),
