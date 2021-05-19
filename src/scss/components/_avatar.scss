@@ -12,4 +12,7 @@ $avatar-text-color: findLightColor($primary) !default;
         width: 100%;
         height: 100%;
     }
+    span.icon i::before {
+        font-size: inherit;
+    }
 }
