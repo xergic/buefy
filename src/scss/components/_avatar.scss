@@ -1,5 +1,6 @@
 $avatar-background-color: $primary !default;
 $avatar-text-color: findLightColor($primary) !default;
+$avatar-border: none;
 
 .b-avatar-wrapper {
     font-weight: bold;
@@ -11,6 +12,7 @@ $avatar-text-color: findLightColor($primary) !default;
         align-items: center;
         width: 100%;
         height: 100%;
+        border: $avatar-border;
     }
     span.icon i::before {
         font-size: inherit;
