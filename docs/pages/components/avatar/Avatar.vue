@@ -15,6 +15,12 @@
             </p>
         </Example>
 
+        <Example :component="ExCustom" :code="ExCustomCode" title="Customization" vertical>
+            <p>
+                You can use <a href="https://bulma.io/documentation/helpers/color-helpers/">Bulma color helpers</a> to override default appearance by setting <code>custom-class</code>. For example: <code>has-background-dark</code> or <code>has-text-light</code>. Or use your custom class.
+            </p>
+        </Example>
+
         <ApiView :data="api"/>
         <VariablesView :data="variables"/>
     </div>
@@ -28,6 +34,8 @@
     import ExSimpleCode from '!!raw-loader!./examples/ExSimple'
     import ExFallbacks from './examples/ExFallbacks'
     import ExFallbacksCode from '!!raw-loader!./examples/ExFallbacks'
+    import ExCustom from './examples/ExCustom'
+    import ExCustomCode from '!!raw-loader!./examples/ExCustom'
 
     export default {
         data() {
@@ -37,7 +45,9 @@
                 ExSimple,
                 ExSimpleCode,
                 ExFallbacks,
-                ExFallbacksCode
+                ExFallbacksCode,
+                ExCustom,
+                ExCustomCode
             }
         }
     }

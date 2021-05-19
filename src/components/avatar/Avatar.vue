@@ -11,12 +11,14 @@
         <span
             :style="styleText"
             :title="alt"
+            :class="customClass"
             v-else-if="!isImage && !username">
             <b-icon :icon="iconFallback" :custom-size="null" />
         </span>
         <span
             :style="styleText"
             :title="alt"
+            :class="customClass"
             v-else>
             {{ getInitials(username) }}
         </span>
@@ -51,7 +53,8 @@ export default {
                 }
             }
         },
-        username: String
+        username: String,
+        customClass: String
     },
     data() {
         return {

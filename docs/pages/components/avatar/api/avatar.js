@@ -23,6 +23,13 @@ export default [
                 default: '<code>128</code>'
             },
             {
+                name: '<code>custom-class</code>',
+                description: 'Custom class for avatar. Use <code>has-background-{type}</code> and <code>has-text-{type}</code> to override background and text colors.',
+                type: 'String',
+                values: '—',
+                default: '—'
+            },
+            {
                 name: '<code>username</code>',
                 description: 'A string to derive initials from.',
                 type: 'String',
@@ -45,7 +52,7 @@ export default [
             },
             {
                 name: '<code>rounded</code>',
-                description: 'Rounded image.',
+                description: 'Rounded avatar.',
                 type: 'Boolean',
                 values: '—',
                 default: '<code>false</code>'
